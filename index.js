@@ -3,7 +3,7 @@ const app = express();
 app.use(express.json());
 
 app.get("/", (req, res) => {
-  res.json({ message: "mini-node-backend en ligne" });
+  res.json({ message: "mini-node-backend en ligne pour de bon " });
 });
 
 app.post("/echo", (req, res) => {
